@@ -1,0 +1,26 @@
+* 58fb643 (HEAD -> main, origin/main) feat: add OCI metadata to Docker images
+*   4ab5fd1 (tag: v1.1.0) Merge pull request #6 from rafayashfaq/fix/ghcr-lowercase-image
+|\  
+| * b0d4d5a (origin/fix/ghcr-lowercase-image, fix/ghcr-lowercase-image) fix: use lowercase GHCR image name
+|/  
+*   0ef5866 Merge pull request #5 from rafayashfaq/feature/fix-release-workflow
+|\  
+| * 6864556 (origin/feature/fix-release-workflow, feature/fix-release-workflow) ci: add Docker release workflow
+|/  
+*   e270339 Merge pull request #4 from rafayashfaq/feature/version-1.1.0
+|\  
+| * cff5568 (origin/feature/version-1.1.0, feature/version-1.1.0) chore: bump version to 1.1.0
+|/  
+*   4f8dbdf Merge pull request #3 from rafayashfaq/feature/model-metadata
+|\  
+| * 7171c68 (origin/feature/model-metadata, feature/model-metadata) feat: add model metadata to health endpoint
+|/  
+| * 28db6cc (origin/feature/ghcr-publishing, feature/ghcr-publishing) ci: add GHCR release publishing
+|/  
+*   b3f4e0d (tag: v1.0.0) Merge pull request #1 from rafayashfaq/feature/prediction-api
+|\  
+| * a510b11 (origin/feature/prediction-api, feature/prediction-api) build: add Docker configuration
+| * a6c9e2f fix: add httpx test dependency
+| * 40e7c4c ci: add automated tests and docker build
+|/  
+* b4df4a4 feat: add FastAPI prediction service

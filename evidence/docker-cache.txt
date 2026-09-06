@@ -1,0 +1,12 @@
+Docker Build Cache Comparison
+
+Cold build:
+40.210 seconds
+
+Cached build:
+2.537 seconds
+
+Speed improvement:
+approximately 15.9x faster
+
+The second build reused cached Docker layers, including the Python dependency installation layer.

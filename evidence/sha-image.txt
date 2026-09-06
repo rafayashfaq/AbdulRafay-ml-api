@@ -1,0 +1,1 @@
+[student-ml-api@sha256:fb6734da928a35877a39c663df8efd0bdbcce3ca654cbbcda82e2ce8ff1e2ef5 ghcr.io/rafayashfaq/abdulrafay-ml-api@sha256:fb6734da928a35877a39c663df8efd0bdbcce3ca654cbbcda82e2ce8ff1e2ef5]

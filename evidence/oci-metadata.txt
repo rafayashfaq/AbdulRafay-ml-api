@@ -1,0 +1,1 @@
+{"org.opencontainers.image.created":"2026-09-06T12:37:56Z","org.opencontainers.image.description":"Student ML inference API","org.opencontainers.image.revision":"58fb6431263bdef553a6f0fb74664a5f21b9b3b3","org.opencontainers.image.source":"https://github.com/rafayashfaq/AbdulRafay-ml-api","org.opencontainers.image.title":"student-ml-api","org.opencontainers.image.version":"1.1.0"}
