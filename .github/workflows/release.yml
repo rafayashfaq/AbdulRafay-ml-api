@@ -28,7 +28,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ghcr.io/${{ github.repository }}
+          images: ghcr.io/${{ github.repository_owner }}/abdulrafay-ml-api
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v6
@@ -36,5 +36,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/${{ github.repository }}:${{ github.ref_name }}
-            ghcr.io/${{ github.repository }}:latest
+            ghcr.io/${{ github.repository_owner }}/abdulrafay-ml-api:${{ github.ref_name }}
+            ghcr.io/${{ github.repository_owner }}/abdulrafay-ml-api:latest
